@@ -1,0 +1,167 @@
+#popular{
+    display: grid;
+    grid-template: " index-box1 index-box2 index-box3 index-box4";
+    gap:10px;
+    margin: auto;
+}
+
+
+.img{
+    width: 300px;
+    height:180px;
+    cursor: pointer;
+
+} 
+
+
+.index-box1{
+    grid-area:index-box1;
+    margin: auto;
+
+}
+.index-box2{
+    grid-area: index-box2;
+    margin: auto;
+
+
+}
+.index-box3{
+    grid-area: index-box3;
+    margin: auto;
+
+
+}
+.index-box4{
+    grid-area: index-box4;
+    margin: auto;
+
+
+}
+.head{
+    height: 140px;
+    margin-left: 2%;
+}
+.head>h2{
+    width:300px;
+    font-size: 15px;
+    color:grey;
+    height:5px;
+}
+.head>h3{
+    width:300px;
+    font-size: 15px;
+    color:grey;
+    height:8px;
+}
+.head>h1{
+    font-size: 20px;
+    width:250px;
+    color:black;
+    height: 14px;
+
+}
+.rupee{
+    display: grid;
+    
+    justify-content: end;
+    color: red;
+    font-size: 20px;
+    height: 10px;
+      
+}
+.class1{
+    height: 10px;
+    font-size: 20px;
+}
+.book{
+    display: grid;
+    justify-content: end;
+    color: teal;
+    font-size: 20px;
+    height:70px;
+    cursor: pointer;
+}
+
+.pic-head{
+    color: black;
+    font-size: 25px;
+}
+.popular-p{
+    color: green;
+    font-size: 20px;
+}
+#topbrand{
+    display: grid;
+    gap:20px;
+    grid-template: "brand1 brand2 brand3 brand4";
+    text-align: center;   
+}
+
+.brand-1{
+    grid-area: brand1;
+    margin:auto;
+
+
+}
+.brand-2{
+    grid-area: brand2;
+    margin:auto;
+
+
+
+}
+.brand-3{
+    grid-area: brand3;
+    margin:auto;
+
+
+}
+.brand-4{
+    grid-area: brand4;
+    margin:auto;
+
+
+}
+
+.img1{
+    width: 300px;
+    height:180px;
+    cursor: pointer;
+
+}
+.empty-img{
+    width:250px;
+    height:180px;
+    margin-left:25px;
+    margin-top: -50px;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+.empty-1{
+    width:300px;
+    height:180px;
+}
+.head-mid{
+    margin-left: 10px;
+    height: 70px;
+    margin-left: 10px;
+}
+.head-mid>p:nth-child(1){
+    color: gray;
+    font-size: 20px;
+    height: 5px;
+    
+}
+.head-mid>p:nth-child(2){
+    color:black;
+    font-size: 30px;
+    
+}
+.mid-p{
+    font-size: 20px;
+    color:green;
+        margin-top:-10%;
+        margin-left: 1%;
+}
